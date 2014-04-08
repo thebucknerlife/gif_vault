@@ -10,6 +10,6 @@ GifVault::Application.routes.draw do
   post '/users' => 'users#create'
 
   get '/cool' => 'gif#cool'  
-  get '/free' => 'gif#free'
+  get '/sweet' => 'gif#sweet'
 
 end

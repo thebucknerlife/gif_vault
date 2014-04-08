@@ -1,11 +1,11 @@
 class GifController < ApplicationController
 
-  before_filter :authorize, except: [:free]
+  before_filter :authorize
 
   def cool
   end
 
-  def free
+  def sweet
   end
 
 end
